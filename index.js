@@ -47,7 +47,7 @@ app.get("/", (req, res) => {
 	res.status(200).send("Hello!");
 });
 
-// Catch all auth requests
+// Catch all recipe requests
 app.all("/recipes/*", async (req, res) => {
 	// Attach client IP to request
 	req["clientIP"] = requestIP.getClientIp(req);
