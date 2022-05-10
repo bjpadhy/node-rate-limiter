@@ -1,4 +1,4 @@
-const REFILL_RATE_IN_SEC = 1 * 60;
+const REFILL_RATE_IN_SEC = 60;
 const BUCKET_SIZE = 5;
 
 const refillBucket = async (bucket) => {
